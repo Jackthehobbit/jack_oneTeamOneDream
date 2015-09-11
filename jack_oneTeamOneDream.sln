@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jack_oneTeamOneDream", "jack_oneTeamOneDream\jack_oneTeamOneDream.csproj", "{25721DF1-62F9-41AA-A03D-C867CD4FEC27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jack_oneTeamOneDreamEntities", "jack_oneTeamOneDreamEntities\jack_oneTeamOneDreamEntities.csproj", "{3EDE86E5-0AF4-4179-9665-9150576494CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jack_oneTeamOneDreamDataBase", "jack_oneTeamOneDreamDataBase\jack_oneTeamOneDreamDataBase.csproj", "{692B6B98-0014-4BD3-A703-87F741EBEB60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jack_oneTeamOneDreamLogic", "jack_oneTeamOneDreamLogic\jack_oneTeamOneDreamLogic.csproj", "{1A88E3D8-3D83-4365-9355-C3059AF9378A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jack_oneTeamOneDreamDbManger", "jack_oneTeamOneDreamDbManger\jack_oneTeamOneDreamDbManger.csproj", "{A0CD8F28-E1A0-4341-B7C6-3D081FF8984C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25721DF1-62F9-41AA-A03D-C867CD4FEC27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25721DF1-62F9-41AA-A03D-C867CD4FEC27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25721DF1-62F9-41AA-A03D-C867CD4FEC27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25721DF1-62F9-41AA-A03D-C867CD4FEC27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EDE86E5-0AF4-4179-9665-9150576494CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EDE86E5-0AF4-4179-9665-9150576494CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EDE86E5-0AF4-4179-9665-9150576494CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EDE86E5-0AF4-4179-9665-9150576494CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{692B6B98-0014-4BD3-A703-87F741EBEB60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692B6B98-0014-4BD3-A703-87F741EBEB60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692B6B98-0014-4BD3-A703-87F741EBEB60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692B6B98-0014-4BD3-A703-87F741EBEB60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A88E3D8-3D83-4365-9355-C3059AF9378A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A88E3D8-3D83-4365-9355-C3059AF9378A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A88E3D8-3D83-4365-9355-C3059AF9378A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A88E3D8-3D83-4365-9355-C3059AF9378A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0CD8F28-E1A0-4341-B7C6-3D081FF8984C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0CD8F28-E1A0-4341-B7C6-3D081FF8984C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0CD8F28-E1A0-4341-B7C6-3D081FF8984C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0CD8F28-E1A0-4341-B7C6-3D081FF8984C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

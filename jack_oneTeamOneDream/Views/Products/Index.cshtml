@@ -1,0 +1,36 @@
+﻿@model IEnumerable<jack_oneTeamOneDreamEntities.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="page-header hidden-xs">
+    <h2>Products</h2>
+</div>
+
+<div class="page-header hidden-md hidden-lg hidden-sm">
+    <h3>Products</h3>
+</div>
+
+<div class="row">
+@foreach (var item in Model) {
+    <div class="col-md-4">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h2 class="panel-title">@Html.DisplayFor(modelItem => item.Name)</h2>
+            </div>
+            <div class="panel-body">
+                <p>
+                  @Html.DisplayFor(modelItem => item.Description)
+                </p>
+            </div>
+            <div class="panel-footer">
+                
+                @Html.ActionLink("Details", "Details", new { id = item.Id }, new { @role="button", @class="btn btn-defualt"})
+                
+            </div>
+        </div>
+    </div>
+}
+</div>
+
